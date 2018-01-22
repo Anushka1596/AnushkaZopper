@@ -2,6 +2,7 @@ Hello.. I am doing git practice.
 there is a conflict
 please resolve....
 hi
+
 please resolve
 hello
 Anushka/AnushkaZopper
@@ -10,4 +11,11 @@ hi
 please resolve
 hello
 hi there
+
+Anushka here
+
+
+
+
+>>>>>>> Committed
 

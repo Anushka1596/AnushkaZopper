@@ -1,13 +1,8 @@
 Hello.. I am doing git practice.
 there is a conflict
-<<<<<<< HEAD
 please resolve....
 hi
-
-
-
-
-=======
 please resolve
 hello
->>>>>>> 44fadcc1706b959580367a5119806361ab2f2298
+Anushka/AnushkaZopper
+

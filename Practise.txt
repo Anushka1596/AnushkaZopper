@@ -1,3 +1,4 @@
-Hello.. I am doing git practice
-....
+Hello.. I am doing git practice.
+there is a conflict
+
 

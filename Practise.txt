@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-Hello.. I am doing git practice!!
-=======
 Hello.. I am doing git practice.
 there is a conflict
 please resolve
 
->>>>>>> 124a6416446c7818db1d3aed36197235a79fb953
+
 

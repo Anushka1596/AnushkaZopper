@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html data-ng-app="test">
+  <head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.1.0/css/bootstrap-toggle.min.css" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.angularjs.org/1.4.7/angular.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.1.0/js/bootstrap-toggle.min.js"></script>
+     
+    <script src="script.js"></script>
+  </head>
+
+  <body data-ng-controller="ctrl">
+    <div class="container">
+      
+        <br>
+     
+      <button type="button" ng-click="add()" class="btn">Add new person</button>
+  <hr>
+      <table class="table">
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>DOB</th>
+          <th>Edit</th>
+          <th> Delete</th>
+        </tr>
+        <tr ng-repeat="person in persons">
+          <td>{{person.name}}</td>
+          <td>{{person.email}}</td>
+          <td>{{person.dob | date: "dd-MM-y"}}</td>
+          <td><button type="button" class="btn btn-xs" ng-click="editDialog.open(person)">Edit...</button></td>
+         <td><button type="button" class="btn btn-xs" ng-click="remove($index)">Delete</button></td>
+         
+        </tr>
+      </table>
+      
+      
+      <edit-person-dialog model="editDialog"></edit-person-dialog>
+    </div>
+  </body>
+</html>

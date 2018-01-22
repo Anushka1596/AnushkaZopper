@@ -1,6 +1,8 @@
 Hello.. I am doing git practice.
 there is a conflict
-please resolve
+please resolve....
+hi
+
 
 
 
